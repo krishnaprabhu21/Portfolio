@@ -1,0 +1,89 @@
+.jumbotron {
+  margin-bottom: 0px !important;
+  background: url("../../assets/images/header-bg.jpg");
+  vertical-align: middle !important;
+  text-align: center !important;
+  color: #fff; }
+  .jumbotron h2 {
+    display: inline-block;
+    font-family: 'existence-light';
+    font-size: 90px; }
+  .jumbotron #right {
+    color: #9f449b; }
+  .jumbotron p, .jumbotron span {
+    font-family: 'existence-light'; }
+  .jumbotron .row a {
+    transform: scale(0.6); }
+
+.navbar-default {
+  background: #fff !important;
+  border-radius: 0px;
+  border: transparent !important; }
+
+#home_container {
+  padding: 40px 0px 100px 0px;
+  background-color: #eeeeee;
+  text-align: center; }
+  #home_container .row a {
+    transform: scale(0.6); }
+
+#aboutus_container {
+  text-align: center; }
+  #aboutus_container h3 {
+    display: inline-block;
+    font-family: 'existence-hairline'; }
+  #aboutus_container #right {
+    color: #cfa1cd; }
+  #aboutus_container img {
+    transform: scale(0.6); }
+  #aboutus_container p {
+    font-family: 'existence-light';
+    text-align: initial;
+    font-size: 16px;
+    line-height: 30px; }
+  #aboutus_container button {
+    padding: 15px 35px;
+    background-color: #9f449b;
+    color: #fff;
+    border-bottom: 3px solid #6b2e68; }
+
+.bgfiller_container {
+  text-align: center;
+  padding: 75px 0px;
+  color: #fff;
+  background: url("../../assets/images/bgfiller.jpg");
+  background-size: cover; }
+  .bgfiller_container img {
+    transform: scale(0.6); }
+
+#blank_container {
+  background: #eeeeee; }
+  #blank_container .side_blank {
+    height: 55px; }
+  #blank_container #blank {
+    height: 25px;
+    background: #fff; }
+
+#services_container {
+  background: #eeeeee; }
+
+#blank_container {
+  height: 35px;
+  background: #fff; }
+  #blank_container span {
+    visibility: hidden; }
+  #blank_container #blank_side {
+    background: #eeeeee; }
+
+#portfolio_container {
+  background: #fff;
+  text-align: center; }
+  #portfolio_container h3 {
+    display: inline-block;
+    font-family: 'existence-hairline'; }
+  #portfolio_container #right {
+    color: #cfa1cd; }
+  #portfolio_container img {
+    transform: scale(0.5);
+    display: inline-block;
+    float: left; }
