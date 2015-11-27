@@ -9,12 +9,12 @@ body {
   color: #fff; }
   .jumbotron h2 {
     display: inline-block;
-    font-family: 'existence-light';
+    font-family: "existence-light";
     font-size: 90px; }
   .jumbotron #right {
     color: #9f449b; }
   .jumbotron p, .jumbotron span {
-    font-family: 'existence-light'; }
+    font-family: "existence-light"; }
   .jumbotron .row a {
     transform: scale(0.6); }
 
@@ -29,7 +29,7 @@ body {
 .navbar .navbar-brand span {
   font-size: 20px;
   display: inline-block;
-  font-family: 'existence-hairline'; }
+  font-family: "existence-hairline"; }
 .navbar .navbar-brand #right {
   color: #cfa1cd; }
 
@@ -45,18 +45,19 @@ body {
     transform: scale(0.6); }
 
 #aboutus_container {
+  padding: 50px;
   text-align: center; }
   #aboutus_container h3 {
     margin-bottom: 80px;
     font-size: 35px;
     display: inline-block;
-    font-family: 'existence-hairline'; }
+    font-family: "existence-hairline"; }
   #aboutus_container #right {
     color: #cfa1cd; }
   #aboutus_container img {
     transform: scale(0.6); }
   #aboutus_container p {
-    font-family: 'existence-light';
+    font-family: "existence-light";
     text-align: left;
     font-size: 16px;
     line-height: 30px; }
@@ -76,23 +77,35 @@ body {
     transform: scale(0.6); }
 
 #team_container {
+  padding: 50px;
   text-align: center; }
   #team_container h3 {
     margin-bottom: 80px;
     font-size: 35px;
     display: inline-block;
-    font-family: 'existence-hairline'; }
+    font-family: "existence-hairline"; }
   #team_container #right {
     color: #cfa1cd; }
+  #team_container #slider_container {
+    text-align: -webkit-center; }
+  #team_container #slider_container .carousel-indicators {
+    position: absolute;
+    top: -50px; }
+  #team_container #slider_container .carousel-indicators img {
+    transform: scale(0.4); }
+  #team_container #slider_container #myCarousel1 {
+    margin-top: 30px; }
+  #team_container #slider_container #myCarousel1 .carousel-inner img {
+    transform: scale(0.5); }
 
 #skills_container {
-  padding-bottom: 50px;
+  padding: 50px;
   text-align: center; }
   #skills_container h3 {
     margin-bottom: 80px;
     font-size: 35px;
     display: inline-block;
-    font-family: 'existence-hairline'; }
+    font-family: "existence-hairline"; }
   #skills_container #right {
     color: #cfa1cd; }
   #skills_container div.col-lg-4:nth-child(even) {
@@ -129,39 +142,31 @@ body {
     background: #eeeeee; }
 
 #portfolio_container {
+  padding: 50px;
   background: #fff;
   text-align: center; }
-  #portfolio_container .nav {
-    display: inline-block;
-    border-bottom: transparent !important; }
-  #portfolio_container .nav-tabs > li.active > a, #portfolio_container .nav-tabs > li.active > a:focus, #portfolio_container .nav-tabs > li.active > a:hover {
-    background: #9f449b !important;
-    color: #fff !important;
-    border-radius: 5px !important;
-    border: 1px solid #9f449b; }
-  #portfolio_container .nav-tabs > li > a {
-    margin-right: 5px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    color: #000; }
   #portfolio_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
     display: inline-block;
-    font-family: 'existence-hairline';
-    margin-bottom: 30px; }
+    font-family: "existence-hairline"; }
   #portfolio_container #right {
     color: #cfa1cd; }
   #portfolio_container img {
-    transform: scale(0.5);
-    display: inline-block;
     float: left; }
+  #portfolio_container span#more {
+    margin-top: 50px;
+    cursor: pointer;
+    float: right; }
 
 #contactus_container {
+  padding: 50px;
   text-align: center; }
   #contactus_container h3 {
     margin-bottom: 80px;
     font-size: 35px;
     display: inline-block;
-    font-family: 'existence-hairline'; }
+    font-family: "existence-hairline"; }
   #contactus_container #right {
     color: #cfa1cd; }
   #contactus_container input, #contactus_container textarea {
@@ -182,11 +187,10 @@ body {
 
 #footer_container {
   text-align: center; }
-  #footer_container h4 {
-    font-size: 35px !important;
-    padding: 20px 0px;
+  #footer_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
     display: inline-block;
-    font-family: 'existence-light';
-    font-size: 90px; }
+    font-family: "existence-hairline"; }
   #footer_container #right {
-    color: #9f449b; }
+    color: #cfa1cd; }
