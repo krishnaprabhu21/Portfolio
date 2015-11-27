@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 .jumbotron {
   margin-bottom: 0px !important;
   background: url("../../assets/images/header-bg.jpg");
@@ -15,21 +18,37 @@
   .jumbotron .row a {
     transform: scale(0.6); }
 
+.navbar {
+  margin: 10px 0px; }
+
 .navbar-default {
   background: #fff !important;
   border-radius: 0px;
   border: transparent !important; }
+
+.navbar .navbar-brand span {
+  font-size: 20px;
+  display: inline-block;
+  font-family: 'existence-hairline'; }
+.navbar .navbar-brand #right {
+  color: #cfa1cd; }
+
+.navbar-default .navbar-nav > li > a {
+  font-weight: bold; }
 
 #home_container {
   padding: 40px 0px 100px 0px;
   background-color: #eeeeee;
   text-align: center; }
   #home_container .row a {
+    cursor: pointer;
     transform: scale(0.6); }
 
 #aboutus_container {
   text-align: center; }
   #aboutus_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
     display: inline-block;
     font-family: 'existence-hairline'; }
   #aboutus_container #right {
@@ -38,7 +57,7 @@
     transform: scale(0.6); }
   #aboutus_container p {
     font-family: 'existence-light';
-    text-align: initial;
+    text-align: left;
     font-size: 16px;
     line-height: 30px; }
   #aboutus_container button {
@@ -56,6 +75,29 @@
   .bgfiller_container img {
     transform: scale(0.6); }
 
+#team_container {
+  text-align: center; }
+  #team_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'existence-hairline'; }
+  #team_container #right {
+    color: #cfa1cd; }
+
+#skills_container {
+  padding-bottom: 50px;
+  text-align: center; }
+  #skills_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'existence-hairline'; }
+  #skills_container #right {
+    color: #cfa1cd; }
+  #skills_container div.col-lg-4:nth-child(even) {
+    margin-bottom: 30px; }
+
 #blank_container {
   background: #eeeeee; }
   #blank_container .side_blank {
@@ -65,7 +107,18 @@
     background: #fff; }
 
 #services_container {
-  background: #eeeeee; }
+  padding: 80px 0px;
+  background: #eeeeee;
+  text-align: center; }
+  #services_container h4 {
+    font-size: 30px; }
+  #services_container #myCarousel img {
+    margin: 30px auto;
+    transform: scale(0.6); }
+  #services_container #myCarousel p {
+    margin: -50px 0 10px 0px; }
+  #services_container .carousel-indicators {
+    bottom: -50px; }
 
 #blank_container {
   height: 35px;
@@ -78,12 +131,62 @@
 #portfolio_container {
   background: #fff;
   text-align: center; }
+  #portfolio_container .nav {
+    display: inline-block;
+    border-bottom: transparent !important; }
+  #portfolio_container .nav-tabs > li.active > a, #portfolio_container .nav-tabs > li.active > a:focus, #portfolio_container .nav-tabs > li.active > a:hover {
+    background: #9f449b !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    border: 1px solid #9f449b; }
+  #portfolio_container .nav-tabs > li > a {
+    margin-right: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000; }
   #portfolio_container h3 {
     display: inline-block;
-    font-family: 'existence-hairline'; }
+    font-family: 'existence-hairline';
+    margin-bottom: 30px; }
   #portfolio_container #right {
     color: #cfa1cd; }
   #portfolio_container img {
     transform: scale(0.5);
     display: inline-block;
     float: left; }
+
+#contactus_container {
+  text-align: center; }
+  #contactus_container h3 {
+    margin-bottom: 80px;
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'existence-hairline'; }
+  #contactus_container #right {
+    color: #cfa1cd; }
+  #contactus_container input, #contactus_container textarea {
+    border-radius: 0px; }
+  #contactus_container button {
+    padding: 15px 35px;
+    background-color: #9f449b;
+    color: #fff;
+    border-bottom: 3px solid #6b2e68; }
+  #contactus_container p {
+    text-align: initial; }
+  #contactus_container a {
+    float: left;
+    position: relative;
+    left: -15px; }
+  #contactus_container a img {
+    transform: scale(0.6); }
+
+#footer_container {
+  text-align: center; }
+  #footer_container h4 {
+    font-size: 35px !important;
+    padding: 20px 0px;
+    display: inline-block;
+    font-family: 'existence-light';
+    font-size: 90px; }
+  #footer_container #right {
+    color: #9f449b; }
